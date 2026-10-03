@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" width="1200" height="840">
+  <title>Concept B: Letterhead. White, navy and brass, centered and editorial</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap");
+    .h { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
+    .hi { font-family: "Playfair Display", Georgia, serif; font-weight: 600; font-style: italic; }
+    .b { font-family: "Lato", "Segoe UI", Arial, sans-serif; }
+    .cap { font-family: "Lato", "Segoe UI", Arial, sans-serif; font-weight: 700; letter-spacing: 3px; font-size: 12px; }
+  </style>
+
+  <rect width="1200" height="840" fill="#fdfcf8"/>
+
+  <!-- utility bar -->
+  <rect width="1200" height="40" fill="#1d2b3a"/>
+  <text x="64" y="26" class="b" font-size="13" fill="#e7e2d3">3684 Cahaba Beach Rd, Birmingham, AL 35242</text>
+  <text x="1136" y="26" text-anchor="end" class="b" font-size="13" font-weight="700" fill="#fff">(205) 937-9960  ·  tommy@themajorslawfirm.com</text>
+
+  <!-- masthead -->
+  <path d="M574 104 594 68l10 17 7-11 19 30z" fill="none" stroke="#1d2b3a" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="600" y="144" text-anchor="middle" class="h" font-size="26" fill="#1d2b3a" letter-spacing="1">The Majors Law Firm</text>
+  <line x1="64" y1="170" x2="1136" y2="170" stroke="#1d2b3a"/>
+  <line x1="64" y1="174" x2="1136" y2="174" stroke="#a8842c" stroke-width="2"/>
+  <g class="cap" fill="#1d2b3a" text-anchor="middle">
+    <text x="440" y="204">PRACTICE AREAS</text>
+    <text x="600" y="204">ABOUT</text>
+    <text x="730" y="204">CONTACT</text>
+  </g>
+  <line x1="64" y1="222" x2="1136" y2="222" stroke="#d9d3c2"/>
+
+  <!-- hero -->
+  <text x="600" y="282" text-anchor="middle" class="cap" fill="#8a6b1f">TOMMY MAJORS · ATTORNEY AT LAW · BIRMINGHAM, ALABAMA</text>
+  <text text-anchor="middle" class="h" font-size="54" fill="#1d2b3a">
+    <tspan x="600" y="352">Real estate, business,</tspan>
+    <tspan x="600" y="418">and estate planning law.</tspan>
+  </text>
+  <text x="600" y="466" text-anchor="middle" class="b" font-size="19" fill="#4c5661">A solo Birmingham lawyer. Call him, or send a short note about what you need.</text>
+
+  <rect x="336" y="498" width="256" height="56" fill="#1d2b3a"/>
+  <text x="464" y="532" text-anchor="middle" class="b" font-size="16" font-weight="700" fill="#fff">Call (205) 937-9960</text>
+  <rect x="608" y="498" width="256" height="56" fill="none" stroke="#1d2b3a" stroke-width="2"/>
+  <text x="736" y="532" text-anchor="middle" class="b" font-size="16" font-weight="700" fill="#1d2b3a">Request a consultation</text>
+
+  <!-- three columns -->
+  <line x1="64" y1="596" x2="1136" y2="596" stroke="#1d2b3a"/>
+  <line x1="421" y1="620" x2="421" y2="748" stroke="#d9d3c2"/>
+  <line x1="779" y1="620" x2="779" y2="748" stroke="#d9d3c2"/>
+  <g>
+    <text x="64" y="646" class="h" font-size="22" fill="#1d2b3a">Real Property Law</text>
+    <text class="b" font-size="15" fill="#4c5661">
+      <tspan x="64" y="678">Commercial and residential transactions</tspan>
+      <tspan x="64" y="702">Landlord/tenant</tspan>
+      <tspan x="64" y="726">Real estate development</tspan>
+    </text>
+    <text x="64" y="754" class="b" font-size="14" font-weight="700" fill="#8a6b1f">Read more →</text>
+
+    <text x="446" y="646" class="h" font-size="22" fill="#1d2b3a">Business Facilitation</text>
+    <text class="b" font-size="15" fill="#4c5661">
+      <tspan x="446" y="678">Legal planning and protection</tspan>
+      <tspan x="446" y="702">Business development</tspan>
+      <tspan x="446" y="726">Business formation</tspan>
+    </text>
+    <text x="446" y="754" class="b" font-size="14" font-weight="700" fill="#8a6b1f">Read more →</text>
+
+    <text x="804" y="646" class="h" font-size="22" fill="#1d2b3a">Estate Planning</text>
+    <text class="b" font-size="15" fill="#4c5661">
+      <tspan x="804" y="678">Wills and trusts</tspan>
+      <tspan x="804" y="702">Healthcare directives and power of attorney</tspan>
+      <tspan x="804" y="726">Guardianship and conservatorship</tspan>
+    </text>
+    <text x="804" y="754" class="b" font-size="14" font-weight="700" fill="#8a6b1f">Read more →</text>
+  </g>
+
+  <!-- credentials footer line -->
+  <rect y="782" width="1200" height="58" fill="#f3efe3"/>
+  <text x="600" y="817" text-anchor="middle" class="b" font-size="14" fill="#1d2b3a">Firm opened October 2014  ·  Alabama State Bar member since 2014  ·  Licensed Alabama real estate broker  ·  Eagle Scout</text>
+</svg>

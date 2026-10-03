@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" width="1200" height="840">
+  <title>Concept C: Front Porch. Warm cream, clay and sage, photo-led and rounded</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap");
+    .h { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
+    .hi { font-family: "Playfair Display", Georgia, serif; font-weight: 600; font-style: italic; }
+    .b { font-family: "Lato", "Segoe UI", Arial, sans-serif; }
+    .cap { font-family: "Lato", "Segoe UI", Arial, sans-serif; font-weight: 700; letter-spacing: 2px; font-size: 12px; }
+  </style>
+  <defs>
+    <pattern id="stripe" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="24" height="24" fill="#e9dfcd"/><rect width="12" height="24" fill="#e2d6c1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="840" fill="#f7f0e4"/>
+  <!-- soft sage shape behind the photo -->
+  <path d="M0 110h470c60 0 110 50 110 110v430c0 60-50 110-110 110H0z" fill="#dfe6d6"/>
+
+  <!-- header -->
+  <path d="M64 66 80 36l8 14 6-9 16 25z" fill="#6f8566"/>
+  <text x="122" y="52" class="h" font-size="20" fill="#2e2a26">The Majors Law Firm</text>
+  <text x="122" y="70" class="b" font-size="12" fill="#6b635a">Tommy Majors · Birmingham, AL</text>
+  <text x="640" y="60" class="b" font-size="15" font-weight="700" fill="#2e2a26">Practice Areas</text>
+  <text x="778" y="60" class="b" font-size="15" font-weight="700" fill="#2e2a26">About</text>
+  <text x="858" y="60" class="b" font-size="15" font-weight="700" fill="#2e2a26">Contact</text>
+  <rect x="956" y="36" width="180" height="40" rx="20" fill="#b5532f"/>
+  <text x="1046" y="62" text-anchor="middle" class="b" font-size="15" font-weight="700" fill="#fff">(205) 937-9960</text>
+
+  <!-- photo placeholder -->
+  <rect x="64" y="150" width="440" height="500" rx="28" fill="url(#stripe)" stroke="#9c8a66" stroke-width="2" stroke-dasharray="10 7"/>
+  <rect x="222" y="372" width="124" height="24" rx="4" fill="#4d4319"/>
+  <text x="284" y="389" text-anchor="middle" class="cap" font-size="11" fill="#fff">PLACEHOLDER</text>
+  <text x="284" y="422" text-anchor="middle" class="b" font-size="16" fill="#4d4319">Photo of Tommy Majors</text>
+
+  <!-- call card overlapping the photo -->
+  <rect x="300" y="560" width="300" height="130" rx="18" fill="#fff" stroke="#e6dccb"/>
+  <text x="326" y="596" class="cap" fill="#6f8566">CALL TOMMY</text>
+  <text x="326" y="636" class="h" font-size="30" fill="#2e2a26">(205) 937-9960</text>
+  <rect x="326" y="652" width="168" height="24" rx="4" fill="#fff6cc" stroke="#b9a04a" stroke-dasharray="5 4"/>
+  <text x="410" y="669" text-anchor="middle" class="b" font-size="11" fill="#4d4319">PLACEHOLDER · hours</text>
+
+  <!-- hero copy -->
+  <text x="650" y="184" class="cap" fill="#b5532f">ATTORNEY · BIRMINGHAM, ALABAMA</text>
+  <text class="h" font-size="46" fill="#2e2a26">
+    <tspan x="650" y="246">Real estate, business,</tspan>
+    <tspan x="650" y="302">and estate planning</tspan>
+    <tspan x="650" y="358">law, close to home.</tspan>
+  </text>
+  <text class="b" font-size="18" fill="#5b544b">
+    <tspan x="650" y="402">Tommy Majors is a solo Birmingham lawyer. Call him,</tspan>
+    <tspan x="650" y="428">or send a short note about what you need.</tspan>
+  </text>
+  <rect x="650" y="458" width="224" height="54" rx="27" fill="#b5532f"/>
+  <text x="762" y="491" text-anchor="middle" class="b" font-size="16" font-weight="700" fill="#fff">Call (205) 937-9960</text>
+  <rect x="888" y="458" width="234" height="54" rx="27" fill="#2e2a26"/>
+  <text x="1005" y="491" text-anchor="middle" class="b" font-size="16" font-weight="700" fill="#fff">Request a consultation</text>
+
+  <!-- creed -->
+  <rect x="650" y="548" width="5" height="92" rx="2" fill="#6f8566"/>
+  <text class="hi" font-size="20" fill="#2e2a26">
+    <tspan x="672" y="574">“We believe in looking people in the eyes,</tspan>
+    <tspan x="672" y="604">giving firm handshakes, and meaning</tspan>
+    <tspan x="672" y="634">what we say.”</tspan>
+  </text>
+
+  <!-- practice area chips -->
+  <g>
+    <rect x="650" y="676" width="150" height="72" rx="16" fill="#fff" stroke="#e6dccb"/>
+    <circle cx="674" cy="712" r="6" fill="#6f8566"/>
+    <text class="b" font-size="15" font-weight="700" fill="#2e2a26"><tspan x="690" y="707">Real Property</tspan><tspan x="690" y="727">Law</tspan></text>
+    <rect x="812" y="676" width="150" height="72" rx="16" fill="#fff" stroke="#e6dccb"/>
+    <circle cx="836" cy="712" r="6" fill="#b5532f"/>
+    <text class="b" font-size="15" font-weight="700" fill="#2e2a26"><tspan x="852" y="707">Business</tspan><tspan x="852" y="727">Facilitation</tspan></text>
+    <rect x="974" y="676" width="150" height="72" rx="16" fill="#fff" stroke="#e6dccb"/>
+    <circle cx="998" cy="712" r="6" fill="#c9a23a"/>
+    <text class="b" font-size="15" font-weight="700" fill="#2e2a26"><tspan x="1014" y="707">Estate</tspan><tspan x="1014" y="727">Planning</tspan></text>
+  </g>
+
+  <!-- trust strip -->
+  <rect y="784" width="1200" height="56" fill="#2e2a26"/>
+  <text x="600" y="818" text-anchor="middle" class="b" font-size="14" fill="#f7f0e4">Firm opened October 2014  ·  Alabama State Bar member since 2014  ·  Licensed Alabama real estate broker  ·  Eagle Scout</text>
+</svg>

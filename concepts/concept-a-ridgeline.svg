@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" width="1200" height="840">
+  <title>Concept A: Ridgeline. Dark forest green, form in the hero</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap");
+    .h { font-family: "Playfair Display", Georgia, serif; font-weight: 700; }
+    .b { font-family: "Lato", "Segoe UI", Arial, sans-serif; }
+    .cap { font-family: "Lato", "Segoe UI", Arial, sans-serif; font-weight: 700; letter-spacing: 2px; font-size: 12px; }
+  </style>
+
+  <!-- page -->
+  <rect width="1200" height="840" fill="#16241a"/>
+
+  <!-- header -->
+  <path d="M64 62 80 32l8 14 6-9 16 25z" fill="#719430"/>
+  <path d="m80 32 4.8 8.2-3.4 3-2.8-2.5-3 2.8z" fill="#FFDB12"/>
+  <text x="122" y="48" class="h" font-size="20" fill="#f4f1e6">The Majors Law Firm</text>
+  <text x="122" y="66" class="b" font-size="12" fill="#a9b7a0">Tommy Majors · Birmingham, AL</text>
+  <text x="600" y="56" class="b" font-size="15" font-weight="700" fill="#f4f1e6">Practice Areas</text>
+  <text x="738" y="56" class="b" font-size="15" font-weight="700" fill="#f4f1e6">About</text>
+  <text x="818" y="56" class="b" font-size="15" font-weight="700" fill="#f4f1e6">Contact</text>
+  <rect x="936" y="32" width="200" height="40" rx="20" fill="#FFDB12"/>
+  <text x="1036" y="58" text-anchor="middle" class="b" font-size="16" font-weight="700" fill="#16241a">(205) 937-9960</text>
+  <line x1="64" y1="92" x2="1136" y2="92" stroke="#2c3f2f"/>
+
+  <!-- ridgeline illustration behind the hero -->
+  <path d="M0 560 140 430l90 70 120-150 130 130 90-80 150 150 120-110 160 130 200-160v310H0z" fill="#1f3324"/>
+  <path d="M0 610 180 500l120 80 150-120 170 130 140-90 180 110 130-70 130 90v80H0z" fill="#2b4630"/>
+  <path d="M0 660 220 580l160 50 200-70 220 80 180-50 220 60v60H0z" fill="#3c5c36"/>
+
+  <!-- hero copy -->
+  <text x="64" y="176" class="cap" fill="#b9d37c">TOMMY MAJORS · ATTORNEY · BIRMINGHAM, ALABAMA</text>
+  <text class="h" font-size="50" fill="#f4f1e6">
+    <tspan x="64" y="242">Real estate, business,</tspan>
+    <tspan x="64" y="304">and estate planning law,</tspan>
+    <tspan x="64" y="366">handled personally.</tspan>
+  </text>
+  <rect x="64" y="378" width="456" height="5" fill="#719430"/>
+  <text class="b" font-size="19" fill="#d3dccb">
+    <tspan x="64" y="424">Tommy Majors is a solo Birmingham lawyer.</tspan>
+    <tspan x="64" y="452">Call him, or send a short note about what you need.</tspan>
+  </text>
+  <rect x="64" y="486" width="250" height="56" rx="8" fill="#FFDB12"/>
+  <text x="189" y="520" text-anchor="middle" class="b" font-size="17" font-weight="700" fill="#16241a">Call (205) 937-9960</text>
+  <rect x="330" y="486" width="250" height="56" rx="8" fill="none" stroke="#f4f1e6" stroke-width="2"/>
+  <text x="455" y="520" text-anchor="middle" class="b" font-size="17" font-weight="700" fill="#f4f1e6">Request a consultation</text>
+
+  <!-- form card in the hero -->
+  <rect x="790" y="136" width="346" height="452" rx="12" fill="#f8f5ea"/>
+  <rect x="790" y="136" width="346" height="8" rx="4" fill="#719430"/>
+  <text x="818" y="188" class="h" font-size="23" fill="#16241a">Request a consultation</text>
+  <text x="818" y="226" class="b" font-size="13" font-weight="700" fill="#16241a">Your name</text>
+  <rect x="818" y="236" width="290" height="44" rx="6" fill="#fff" stroke="#9aa094"/>
+  <text x="818" y="310" class="b" font-size="13" font-weight="700" fill="#16241a">Phone or email</text>
+  <rect x="818" y="320" width="290" height="44" rx="6" fill="#fff" stroke="#9aa094"/>
+  <text x="818" y="394" class="b" font-size="13" font-weight="700" fill="#16241a">What do you need help with?</text>
+  <rect x="818" y="404" width="290" height="44" rx="6" fill="#fff" stroke="#9aa094"/>
+  <text x="832" y="432" class="b" font-size="15" fill="#586053">Estate Planning</text>
+  <path d="m1082 422 6 7 6-7" fill="none" stroke="#586053" stroke-width="2"/>
+  <rect x="818" y="472" width="290" height="50" rx="8" fill="#16241a"/>
+  <text x="963" y="503" text-anchor="middle" class="b" font-size="16" font-weight="700" fill="#fff">Send request</text>
+  <rect x="818" y="536" width="290" height="34" rx="6" fill="#fff6cc" stroke="#b9a04a" stroke-dasharray="6 4"/>
+  <text x="963" y="558" text-anchor="middle" class="b" font-size="12" fill="#4d4319">PLACEHOLDER · consultation terms</text>
+
+  <!-- trust strip -->
+  <rect y="660" width="1200" height="70" fill="#f8f5ea"/>
+  <g class="b" font-size="15" fill="#16241a">
+    <circle cx="70" cy="695" r="5" fill="#719430"/><text x="84" y="700">Firm opened October 2014</text>
+    <circle cx="330" cy="695" r="5" fill="#719430"/><text x="344" y="700">Alabama State Bar member since 2014</text>
+    <circle cx="664" cy="695" r="5" fill="#719430"/><text x="678" y="700">Licensed Alabama real estate broker</text>
+    <circle cx="990" cy="695" r="5" fill="#719430"/><text x="1004" y="700">Eagle Scout</text>
+  </g>
+
+  <!-- practice areas peek -->
+  <rect y="730" width="1200" height="110" fill="#efecdf"/>
+  <g>
+    <rect x="64" y="756" width="340" height="84" rx="10" fill="#fff" stroke="#e2ded0"/>
+    <rect x="64" y="756" width="340" height="5" fill="#719430"/>
+    <text x="88" y="800" class="h" font-size="21" fill="#16241a">Real Property Law</text>
+    <rect x="430" y="756" width="340" height="84" rx="10" fill="#fff" stroke="#e2ded0"/>
+    <rect x="430" y="756" width="340" height="5" fill="#719430"/>
+    <text x="454" y="800" class="h" font-size="21" fill="#16241a">Business Facilitation</text>
+    <rect x="796" y="756" width="340" height="84" rx="10" fill="#fff" stroke="#e2ded0"/>
+    <rect x="796" y="756" width="340" height="5" fill="#719430"/>
+    <text x="820" y="800" class="h" font-size="21" fill="#16241a">Estate Planning</text>
+  </g>
+</svg>
